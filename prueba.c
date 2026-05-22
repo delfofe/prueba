@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     }
     int a = atoi(argv[1]);
     int b = atoi(argv[2]);
-    int sum = a + b;
-    printf("The sum of %d and %d is %d\n", a, b, sum);
+    int sum = a * b;
+    printf("The product of %d and %d is %d\n", a, b, sum);
     return 0;
 }
