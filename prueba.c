@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//facu estuvo aqui
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         fprintf(stderr, "Usage: %s <num1> <num2>\n", argv[0]);
